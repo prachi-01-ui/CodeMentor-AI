@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CodeMentor AI",
+  "version": "1.0",
+  "description": "Explain coding errors instantly using AI",
+  "permissions": ["contextMenus", "storage", "tabs", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {"1" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Ioj2xt3akqILYw2rVdb5ep3BF2NOMlfaRA&s" }
+  }
+}
+
